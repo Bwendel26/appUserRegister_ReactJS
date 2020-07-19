@@ -1,3 +1,5 @@
+import "bootstrap/dist/css/bootstrap.min.css"
+import "font-awesome/css/font-awesome.min.css"
 import "./App.css"
 import React from "react"
 //components
@@ -10,6 +12,7 @@ export default props =>
    <div className="app">
       <Logo />
       <Nav />
-      <Main />
+      <Main icon="home" title="Initial"
+         subtitle="Second project in React."/>
       <Footer />
    </div>
